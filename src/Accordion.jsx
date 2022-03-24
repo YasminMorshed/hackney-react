@@ -12,7 +12,7 @@ const MyAccordion = () => {
   return (
     <>
     <h1>Football Pitch Booking System</h1>
-    <div className="ball image">
+    <div className="ball">
       <img src={ball} alt="Ball" />
     </div>
     <div
