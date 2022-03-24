@@ -21,49 +21,50 @@ const MyAccordion = () => {
       data-attribute="value"
       ref={ref}
     >
-        <div className="govuk-accordion__section ">
-          <div className="govuk-accordion__section-header">
-            <h5 className="govuk-accordion__section-heading">
-              <span
-                className="govuk-accordion__section-button"
-                id="default-example-heading-1"
-              >
-                Section A
-              </span>
-            </h5>
-          </div>
-          <div
-            id="default-example-content-1"
-            className="govuk-accordion__section-content"
-            aria-labelledby="default-example-heading-1"
-          >
-            <ul className="lbh-list lbh-list--bullet">
-              <li>Example item 1</li>
-            </ul>
-          </div>
+      <div className="govuk-accordion__section ">
+        <div className="govuk-accordion__section-header">
+          <h5 className="govuk-accordion__section-heading">
+            <span
+              className="govuk-accordion__section-button"
+              id="default-example-heading-1"
+            >
+              Book a Football Pitch
+            </span>
+          </h5>
         </div>
-        <div className="govuk-accordion__section ">
-          <div className="govuk-accordion__section-header">
-            <h5 className="govuk-accordion__section-heading">
-              <span
-                className="govuk-accordion__section-button"
-                id="default-example-heading-2"
-              >
-                Section B
-              </span>
-            </h5>
-          </div>
-          <div
-            id="default-example-content-2"
-            className="govuk-accordion__section-content"
-            aria-labelledby="default-example-heading-2"
-          >
-            <ul className="lbh-list lbh-list--bullet">
-              <li>Example item 2</li>
-            </ul>
-          </div>
+        <div
+          id="default-example-content-1"
+          className="govuk-accordion__section-content"
+          aria-labelledby="default-example-heading-1"
+        >
+          <ul className="lbh-list lbh-list--bullet">
+            <li>Example item 1</li>
+          </ul>
         </div>
-      </div></>
+      </div>
+      <div className="govuk-accordion__section ">
+        <div className="govuk-accordion__section-header">
+          <h5 className="govuk-accordion__section-heading">
+            <span
+              className="govuk-accordion__section-button"
+              id="default-example-heading-2"
+            >
+              Check or Amend your Booking
+            </span>
+          </h5>
+        </div>
+        <div
+          id="default-example-content-2"
+          className="govuk-accordion__section-content"
+          aria-labelledby="default-example-heading-2"
+        >
+          <ul className="lbh-list lbh-list--bullet">
+            <li>Example item 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </>
   )
 }
 
