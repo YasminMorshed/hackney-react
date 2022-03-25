@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react"
 import { Accordion } from "lbh-frontend"
+import { Link } from "react-router-dom";
 import ball from './ball.jpg'
 
 const MyAccordion = () => {
@@ -38,7 +39,7 @@ const MyAccordion = () => {
           aria-labelledby="default-example-heading-1"
         >
           <ul className="lbh-list lbh-list--bullet">
-            <li>Example item 1</li>
+          <li><Link to="/booking">Click here to create a booking.</Link></li>
           </ul>
         </div>
       </div>
@@ -59,7 +60,7 @@ const MyAccordion = () => {
           aria-labelledby="default-example-heading-2"
         >
           <ul className="lbh-list lbh-list--bullet">
-            <li>Example item 2</li>
+            <li><Link to="/amend">Click here to amend a booking.</Link></li>
           </ul>
         </div>
       </div>
