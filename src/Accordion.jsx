@@ -16,6 +16,9 @@ const MyAccordion = () => {
     <div className="ball">
       <img src={ball} alt="Ball" />
     </div>
+    <h3>
+            If you are unable to use the website, call 020 8986 7955, Monday – Friday, 9am-3.30pm or <a href="mailto:hackney.marshes@gll.org">hackney.marshes@gll.org</a> to book a football pitch.
+    </h3>
     <div
       className="govuk-accordion lbh-accordion"
       id="default-example"
