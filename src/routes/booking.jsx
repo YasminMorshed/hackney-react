@@ -1,4 +1,10 @@
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
+
 export default function Booking() {
+    const [startDate, setStartDate] = useState(new Date());
     return (
       <main style={{ padding: "1rem 0" }}>
         <h2>Create a Booking</h2>
@@ -19,6 +25,12 @@ export default function Booking() {
               <option value="2">Mabley Green - 3G Pitch</option>
               <option value="3">Haggerston Park</option>
             </select>
+        </div>
+          <label class="govuk-label lbh-label" for="select-1">
+            Select a date
+          </label>
+        <div class="govuk-select lbh-select">
+          <DatePicker selected={startDate} onChange={(date:Date) => setStartDate(date)} />
         </div>
         <button class="govuk-button lbh-button" data-module="govuk-button">
   Save and continue
