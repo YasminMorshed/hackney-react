@@ -2,14 +2,14 @@ export default function Booking() {
     return (
       <main style={{ padding: "1rem 0" }}>
         <h2>Create a Booking</h2>
-        <div class="PageContent-module--container--31pft">
-        <p>The spaces available:</p>
+        <h5>The spaces available:
+        <br></br>
         <ul>
         <li><a href="https://www.hackney.gov.uk/hackney-marshes">Hackney Marshes</a></li>
         <li><a href="https://www.hackney.gov.uk/mabley-green">Mabley Green</a>&nbsp;– 3G pitch</li>
         <li><a href="https://www.hackney.gov.uk/haggerston-park">Haggerston Park</a></li>
         </ul>
-        </div>
+        </h5>
         <div class="govuk-form-group lbh-form-group">
           <label class="govuk-label lbh-label" for="select-1">
               Select a pitch
